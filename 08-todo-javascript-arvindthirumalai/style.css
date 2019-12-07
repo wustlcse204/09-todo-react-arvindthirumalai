@@ -1,0 +1,78 @@
+
+body
+{
+  background-color: rgb(235, 235, 235);
+  font-size:20px;
+  font-family: Helvetica;
+}
+.main{
+  width:16%;
+  margin-left:42%;
+  margin-right:42%;
+  height:33%;
+  margin-top:15%;
+  margin-bottom:34%;
+  background-color:white;
+  padding:20px;
+}
+.insidemain{
+  text-align: center;
+}
+.doubleinput{
+  text-align:left;
+  padding:5px;
+  margin-top:5px;
+}
+input{
+  margin-left:5px;
+  margin-top:15px;
+  margin-right:15px;
+  margin-bottom:15px;
+  z-index: 1;
+  background-color:white;
+  margin-bottom:5px;
+  border-color:black;
+  overflow:scroll;
+  font-size: 13px;
+  border-radius: 15px;
+  outline:none;
+}
+.doubleinput input:hover{
+  background-color:black;
+  color:white;
+}
+
+button{
+  background-color:black;
+  color:white;
+  text-align:center;
+  height: 40px;
+  width:100px;
+  border-radius: 35px;
+  outline:none;
+}
+button:hover{
+  background-color:white;
+  color:black;
+}
+#addtask{
+  margin-left:5px;
+}
+.delbutton{
+  margin-right:10px;
+}
+.completed{
+  text-decoration: line-through;
+  color:red;
+}
+@media only screen and (max-width: 768px)
+{
+  .main{
+    height:100%;
+    width:100%;
+  }
+  body{
+    background-color:white;
+    font-size: 15px;
+  }
+}
